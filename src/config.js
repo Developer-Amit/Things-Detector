@@ -1,5 +1,5 @@
 // Insert your own API key here:
-const googleKey = '@@@@@'
+const googleKey = 'YOUR_API_KEY'
 
 export const apiUrls = {
   cloudVision: 'https://vision.googleapis.com/v1/images:annotate?key=' + googleKey,

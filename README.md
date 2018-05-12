@@ -1,18 +1,4 @@
-# [Thing Translator](https://thing-translator.appspot.com/)
-### [An AI Experiment](https://aiexperiments.withgoogle.com/)
-✨ [Try the live demo here.](https://thing-translator.appspot.com/) ✨
-
-![](https://oxism.com/thing-translator/thing-translator.gif)
-
-![](https://oxism.com/thing-translator/img/1.jpg)
-
-![](https://oxism.com/thing-translator/img/2.jpg)
----
-
-Thing Translator is a web app that lets you point your phone (or laptop) at
-stuff to hear to say it in a different language. It was developed as part of
-Google's [AI Experiments](https://aiexperiments.withgoogle.com/) project. You
-can try the app [here](https://thing-translator.appspot.com/).
+#Things Detector - A Javascript AI experiment.
 
 Behind the scenes Thing Translator is using Google's
 [Cloud Vision](https://cloud.google.com/vision/) and
@@ -30,6 +16,8 @@ To optimize the output for production run:
 ```
 $ npm run bundle
 ```
+
+When you needed to run your server on a IP instead of localhost just replace localhost with IP on the package ie. localhost = 192.168.1.116
 
 If you'd like to create a fork or a similar project, you'll need to setup some
 API keys on [Google Cloud Platform](https://cloud.google.com/).
